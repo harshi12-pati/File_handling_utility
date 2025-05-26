@@ -48,7 +48,7 @@ I included proper exception handling to catch errors like file not found, input/
 
 **Tools Used :**
 
-For this project, I didn’t use a heavy IDE like Eclipse or IntelliJ. Instead, I used an online Java compiler like JDoodle and Replit, which helped me test the code quickly from anywhere without setting up Java locally. This was especially convenient while working remotely during the internship.
+For this project, I used an online Java compiler like JDoodle, which helped me test the code quickly from anywhere without setting up Java locally. This was especially convenient while working remotely during the internship.
 
 **What I Learned :**
 
