@@ -1,0 +1,41 @@
+import java.io.*;
+
+public class FileOperations {
+    public static void main(String[] args) {
+        // Writing to a file
+        try {
+            FileWriter writer = new FileWriter("test.txt");
+            writer.write("Hello, Canva!");
+            writer.close();
+            System.out.println("Successfully wrote to the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred while writing to the file.");
+            e.printStackTrace();
+        }
+
+        // Reading from a file
+        try {
+            FileReader reader = new FileReader("test.txt");
+            BufferedReader bufferedReader = new BufferedReader(reader);
+            String line;
+            while ((line = bufferedReader.readLine()) != null) {
+                System.out.println(line);
+            }
+            reader.close();
+        } catch (IOException e) {
+            System.out.println("An error occurred while reading the file.");
+            e.printStackTrace();
+        }
+
+        // Modifying a file
+        try {
+            FileWriter writer = new FileWriter("test.txt", true); // Set the second parameter to true for append mode
+            writer.write("\nLet's modify this file.");
+            writer.close();
+            System.out.println("Successfully modified the file.");
+        } catch (IOException e) {
+            System.out.println("An error occurred while modifying the file.");
+            e.printStackTrace();
+        }
+    }
+}
