@@ -14,13 +14,13 @@
 
 ---
 
-### **DESCRIPTION:**
+**DESCRIPTION:**
 
 During my internship at **CodTech**, I was given a project to create a simple **File Handling Utility** using **Java**. The idea was to build a console-based tool that could perform three basic but important operations on a text file: writing data to the file, reading data from it, and modifying existing content. I wanted to keep the tool straightforward and easy to use, especially for beginners who are just starting to learn Java file handling.
 
 ---
 
-### **What the Tool Does:**
+ **What the Tool Does:**
 
 The utility works with a file named `file.txt`. When you run the program, it shows a menu with four options:
 
@@ -33,7 +33,7 @@ The user simply enters the number corresponding to what they want to do. The pro
 
 ---
 
-### **How I Built It:**
+**How I Built It:**
 
 I stuck to using **core Java features only** — no external libraries — to keep the project lightweight and easy to understand. The main tools I used were:
 
@@ -50,19 +50,19 @@ Each function (write, read, modify) is handled in its own method to make the cod
 
 ---
 
-### **Handling Errors and Edge Cases:**
+**Handling Errors and Edge Cases:**
 
 I focused on **proper error handling** throughout. For example, if the file doesn’t exist yet and the user tries to read or modify it, the program politely informs them to write to the file first instead of crashing. Also, I ensured all file streams are properly closed using **try-with-resources** blocks to avoid memory leaks and other resource issues.
 
 ---
 
-### **Tools and Environment:**
+**Tools and Environment:**
 
 I developed and tested the utility using an online Java compiler like **JDoodle**. This approach made it easy to work on the project from anywhere without needing to install Java locally. It also sped up the testing and debugging process, allowing me to run the code instantly.
 
 ---
 
-### **What I Learned:**
+**What I Learned:**
 
 Working on this project gave me practical experience with Java file handling. It helped me understand how to read, write, and modify files, and how to manage exceptions and streams properly. Writing modular methods for each task taught me better ways to organize code for improved readability and maintainability.
 
@@ -70,7 +70,7 @@ Most importantly, this project boosted my confidence in building working Java ap
 
 ---
 
-### **Output:**
+**Output:**
 
 
 ![Screenshot 2025-06-11 192321](https://github.com/user-attachments/assets/9fb8b39e-2167-4da5-8df9-15b67bfaba02)
